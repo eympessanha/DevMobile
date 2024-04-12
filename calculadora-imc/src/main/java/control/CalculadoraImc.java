@@ -154,7 +154,7 @@ public class CalculadoraImc {
                     return "Baixo peso";
                 } else if (idade == 8 && imc > 13.6 && imc <= 18.2) {
                     return "Peso normal";
-                } else if (idade == 8 && imc > 17 && imc <= 20.6) {
+                } else if (idade == 8 && imc > 18.2 && imc <= 20.6) {
                     return "Sobrepeso";
                 } else if (idade == 8 && imc > 20.6){
                     return "Obesidade";
